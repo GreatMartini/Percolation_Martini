@@ -31,8 +31,9 @@ namespace Percolation
             double sum_squares = 0;
             double fraction = 0;
             for(int i = 0; i < t; i++){
-                fraction += PercolationValue(size);
-                sum_fractions += sum_fractions;
+                fraction = PercolationValue(size);
+                //Console.Write(fraction);
+                sum_fractions += fraction;
                 sum_squares += fraction*fraction;
             }
             double mean = sum_fractions/t;
@@ -46,7 +47,7 @@ namespace Percolation
         }
 
         public double PercolationValue(int size)
-        {   
+        {   double Ntot = size * size;
             //try{
             Percolation grid = new Percolation(size);
 
@@ -60,19 +61,18 @@ namespace Percolation
                     if (grid.IsOpen(ni, nj) == false){
                         grid.Open(ni, nj);
                         open_count += 1;
-
+                        
                     }
                     else{
                         continue;
                     }
                     if(grid.Percolate() == true){
-                        return open_count/(size*size);
+                        break;
+                        //return open_count/(size*size);
                     }
                 }
                 while(grid.Percolate() == false && k < 100);
-            //}
-            //catch(ArgumentOutOfRangeException){}
-            return 0;
+                return open_count/Ntot;
         }
     }
 }

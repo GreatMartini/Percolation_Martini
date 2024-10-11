@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Percolation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f87018bf23b273421167d901fd83450b399c5d8f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f566b9f06e26195d384004941607d76617e4fa1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Percolation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Percolation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+/Users/bach/Desktop/Percolation/bin/Debug/net8.0/Percolation
+/Users/bach/Desktop/Percolation/bin/Debug/net8.0/Percolation.deps.json
+/Users/bach/Desktop/Percolation/bin/Debug/net8.0/Percolation.runtimeconfig.json
+/Users/bach/Desktop/Percolation/bin/Debug/net8.0/Percolation.dll
+/Users/bach/Desktop/Percolation/bin/Debug/net8.0/Percolation.pdb
+/Users/bach/Desktop/Percolation/obj/Debug/net8.0/Percolation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bach/Desktop/Percolation/obj/Debug/net8.0/Percolation.AssemblyInfoInputs.cache
+/Users/bach/Desktop/Percolation/obj/Debug/net8.0/Percolation.AssemblyInfo.cs
+/Users/bach/Desktop/Percolation/obj/Debug/net8.0/Percolation.csproj.CoreCompileInputs.cache
+/Users/bach/Desktop/Percolation/obj/Debug/net8.0/Percolation.sourcelink.json
+/Users/bach/Desktop/Percolation/obj/Debug/net8.0/Percolation.dll
+/Users/bach/Desktop/Percolation/obj/Debug/net8.0/refint/Percolation.dll
+/Users/bach/Desktop/Percolation/obj/Debug/net8.0/Percolation.pdb
+/Users/bach/Desktop/Percolation/obj/Debug/net8.0/Percolation.genruntimeconfig.cache
+/Users/bach/Desktop/Percolation/obj/Debug/net8.0/ref/Percolation.dll

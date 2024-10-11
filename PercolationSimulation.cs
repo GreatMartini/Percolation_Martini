@@ -32,7 +32,6 @@ namespace Percolation
             double fraction = 0;
             for(int i = 0; i < t; i++){
                 fraction = PercolationValue(size);
-                //Console.Write(fraction);
                 sum_fractions += fraction;
                 sum_squares += fraction*fraction;
             }
@@ -67,10 +66,7 @@ namespace Percolation
                     else{
                         continue;
                     }
-                    //if(grid.Percolate() == true){
-                    //    break;
-                        //return open_count/(size*size);
-                    //}
+
                 }
                 while(grid.Percolate() == false && k < 100000);
                 return open_count/Ntot;

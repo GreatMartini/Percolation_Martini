@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+// Erreur dans la propagation, la propagation n'est pas bien implémentée:
+// Pas de gravité
 namespace Percolation
 {
     class Program
@@ -15,11 +16,8 @@ namespace Percolation
             int t = 100;
             PercolationSimulation sim = new PercolationSimulation();
             PclData simulation = new PclData();
-            //try{
             simulation = sim.MeanPercolationValue(size, t);
             Console.Write($"{simulation.Mean} {simulation.StandardDeviation} ");
-            //}
-            //catch(ArgumentOutOfRangeException){}
 
             
             // Keep the console window open

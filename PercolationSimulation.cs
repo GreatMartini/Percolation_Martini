@@ -61,17 +61,18 @@ namespace Percolation
                     if (grid.IsOpen(ni, nj) == false){
                         grid.Open(ni, nj);
                         open_count += 1;
+                        Console.WriteLine(open_count);
                         
                     }
                     else{
                         continue;
                     }
-                    if(grid.Percolate() == true){
-                        break;
+                    //if(grid.Percolate() == true){
+                    //    break;
                         //return open_count/(size*size);
-                    }
+                    //}
                 }
-                while(grid.Percolate() == false && k < 100);
+                while(grid.Percolate() == false && k < 100000);
                 return open_count/Ntot;
         }
     }

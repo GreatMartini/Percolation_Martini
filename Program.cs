@@ -11,7 +11,7 @@ namespace Percolation
         static void Main(string[] args)
         {
 
-            int size = 30;
+            int size = 10;
             int t = 100;
             PercolationSimulation sim = new PercolationSimulation();
             PclData simulation = new PclData();

@@ -127,20 +127,19 @@ namespace Percolation
         }
 
         public void Open(int i, int j)
-        {
+        { 
             _open[i, j] = true;
+            if (i == 0){
+                _full[i, j] = true;
+            }
             List<KeyValuePair<int, int>> voisins = CloseNeighbors(i,j);
-            //List<KeyValuePair<int, int>> voisins1 = new List <KeyValuePair<int, int>>();
-            //voisins1.Add(CloseNeighbors(i, j));
+
             foreach (var element in voisins){
-                //Console.Write(element.key);
                 int vi = element.Key;
                 int vj = element.Value;
                 if (IsFull(vi, vj) == true){        //La performance est de 2N**2
                     _full[vi, vj] = true;           // Ce cas a peu de chances de se produire 
-                                                    // Car la fonction de densité de probabilité est de ds/s
-                                                    // S étant la surface
-                }
+                }                                   // Car la fonction de densité de probabilité est de ds/s                                                    // S étant la surface                }
             }
         } 
     }
